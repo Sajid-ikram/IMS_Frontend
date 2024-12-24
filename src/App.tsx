@@ -1,14 +1,17 @@
 import { BrowserRouter } from 'react-router-dom';
 import AppRoutes from './routes';
 import { AnimatePresence } from 'framer-motion';
+import { AuthProvider } from './providers/AuthProvider';
 
 function App() {
   return (
-    <BrowserRouter>
-      <AnimatePresence mode="wait">
-        <AppRoutes />
-      </AnimatePresence>
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <AnimatePresence mode="wait">
+          <AppRoutes />
+        </AnimatePresence>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 

@@ -1,7 +1,8 @@
-import React from "react";
 import { Sparkles, PenSquare } from "lucide-react";
 import { motion } from "framer-motion";
 import { useParallax } from "../hooks/useParallax";
+import ParalaxBG from "../public/parallax-img.avif";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const parallaxOffset = useParallax(0.5);
@@ -10,8 +11,11 @@ export default function Hero() {
     <div className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950" />
       <div
-        className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-5"
-        style={{ transform: `translateY(${parallaxOffset}px)` }}
+        className="absolute inset-0 bg-cover bg-center opacity-5"
+        style={{
+          backgroundImage: `url(${ParalaxBG})`,
+          transform: `translateY(${parallaxOffset}px)`,
+        }}
       />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
@@ -30,7 +34,7 @@ export default function Hero() {
             Where Great{" "}
             <span className="bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
               Ideas
-            </span>{" "}
+            </span>
             <br /> Come to Life
           </motion.h1>
           <motion.p
@@ -55,7 +59,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
             >
               <Sparkles className="mr-2 h-5 w-5 group-hover:text-purple-400" />
-              Discover Ideas
+              <Link to="/discover">Discover Ideas</Link>
             </motion.button>
             <motion.button
               className="group px-8 py-4 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white transition-all flex items-center justify-center"
@@ -63,7 +67,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
             >
               <PenSquare className="mr-2 h-5 w-5" />
-              Post New Idea
+              <Link to="/share">Post New Idea</Link>
             </motion.button>
           </motion.div>
         </motion.div>
