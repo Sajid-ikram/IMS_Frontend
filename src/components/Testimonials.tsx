@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    content: "IdeaShare has transformed how I collaborate with others. The platform's intuitive design and supportive community make sharing ideas a breeze.",
+    content: "IMS-System has transformed how I collaborate with others. The platform's intuitive design and supportive community make sharing ideas a breeze.",
     author: "Sarah Johnson",
     role: "Product Designer",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80"
@@ -15,7 +15,7 @@ const testimonials = [
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
   },
   {
-    content: "As an innovator, finding the right platform to share ideas is crucial. IdeaShare exceeds all expectations with its amazing community.",
+    content: "As an innovator, finding the right platform to share ideas is crucial. IMS-System exceeds all expectations with its amazing community.",
     author: "Emily Rodriguez",
     role: "Innovation Consultant",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"

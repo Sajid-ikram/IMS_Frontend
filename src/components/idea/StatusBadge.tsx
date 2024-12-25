@@ -143,7 +143,7 @@ export default function StatusBadge({
       if (user) {
         try {
           const response = await fetch(
-            `https://ism-server.onrender.com/api/ideas/${ideaId}/status`,
+            `https://ims-backend-two.vercel.app/api/ideas/${ideaId}/status`,
             {
               method: "PATCH",
               headers: {
@@ -176,7 +176,7 @@ export default function StatusBadge({
     if (user) {
       try {
         const response = await fetch(
-          `https://ism-server.onrender.com/api/ideas/${ideaId}/req-collaboration`,
+          `https://ims-backend-two.vercel.app/api/ideas/${ideaId}/req-collaboration`,
           {
             method: "POST",
             headers: {

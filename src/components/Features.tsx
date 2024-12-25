@@ -51,7 +51,7 @@ export default function Features() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-white mb-4">Why Choose IdeaShare?</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Why Choose IMS-System?</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Discover the features that make our platform the perfect place for innovators and creators.
           </p>

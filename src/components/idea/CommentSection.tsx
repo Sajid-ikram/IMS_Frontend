@@ -34,7 +34,7 @@ export default function CommentSection({
   const fetchComments = useCallback(async () => {
     try {
       const response = await fetch(
-        `https://ism-server.onrender.com/api/ideas/${ideaId}`
+        `https://ims-backend-two.vercel.app/api/ideas/${ideaId}`
       );
       if (!response.ok) {
         const message = await response.text();
@@ -57,7 +57,7 @@ export default function CommentSection({
       if (newComment.trim() && user) {
         try {
           const response = await fetch(
-            `https://ism-server.onrender.com/api/ideas/${ideaId}/comment`,
+            `https://ims-backend-two.vercel.app/api/ideas/${ideaId}/comment`,
             {
               method: "POST",
               headers: {

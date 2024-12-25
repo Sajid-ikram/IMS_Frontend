@@ -33,7 +33,7 @@ export default function IdeaPage() {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://ism-server.onrender.com/api/ideas/${ideaId}`
+        `https://ims-backend-two.vercel.app/api/ideas/${ideaId}`
       );
 
       if (!response.ok) {
@@ -54,7 +54,7 @@ export default function IdeaPage() {
     try {
       if (idea) {
         const response = await fetch(
-          `https://ism-server.onrender.com/api/users/${idea.author}`
+          `https://ims-backend-two.vercel.app/api/users/${idea.author}`
         );
 
         if (!response.ok) {

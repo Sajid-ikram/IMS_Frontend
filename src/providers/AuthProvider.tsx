@@ -31,7 +31,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   const login = useCallback(async (email: string, password: string) => {
     try {
       const response = await fetch(
-        "https://ism-server.onrender.com/api/users/login",
+        "https://ims-backend-two.vercel.app/api/users/login",
         {
           method: "POST",
           headers: {
@@ -74,11 +74,11 @@ export function AuthProvider({ children }: AuthProviderProps) {
         _id,
         name,
         email,
-        role: "employee", //default value for registration
+        role: "Employee", //default value for registration
       });
       localStorage.setItem(
         "user",
-        JSON.stringify({ _id, name, email, role: "employee" })
+        JSON.stringify({ _id, name, email, role: "Employee" })
       );
     },
     []

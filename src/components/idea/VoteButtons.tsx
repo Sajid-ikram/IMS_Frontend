@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import { useAuth } from "../../hooks/useAuth";
 import { useParams } from "react-router-dom";
 
@@ -24,7 +24,7 @@ export default function VoteButtons({
     }
     try {
       const response = await fetch(
-        `https://ism-server.onrender.com/api/ideas/${ideaId}/vote`,
+        `https://ims-backend-two.vercel.app/api/ideas/${ideaId}/vote`,
         {
           method: "POST",
           headers: {
@@ -61,7 +61,7 @@ export default function VoteButtons({
             : "bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white"
         }`}
       >
-        <Heart className="w-5 h-5" />
+        <ArrowUp className="w-5 h-5" />
         <span>{votes}</span>
       </motion.button>
     </div>

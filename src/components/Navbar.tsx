@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <Lightbulb className="h-8 w-8 text-purple-500" />
               <span className="ml-2 text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
-                IdeaShare
+                IMS-System
               </span>
             </Link>
 

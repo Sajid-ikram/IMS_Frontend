@@ -37,7 +37,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md p-8 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-white mb-2">Welcome Back</h1>
-          <p className="text-gray-400">Sign in to continue to IdeaShare</p>
+          <p className="text-gray-400">Sign in to continue to IMS-System</p>
         </div>
 
         {error && (

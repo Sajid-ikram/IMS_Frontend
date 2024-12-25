@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center">
               <Lightbulb className="h-8 w-8 text-purple-500" />
               <span className="ml-2 text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
-                IdeaShare
+                IMS-System
               </span>
             </div>
             <p className="mt-4 text-gray-400">
@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-white/10 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} IdeaShare. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} IMS-System. All rights reserved.</p>
         </div>
       </div>
     </footer>

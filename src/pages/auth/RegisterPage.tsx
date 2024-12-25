@@ -32,7 +32,7 @@ export default function RegisterPage() {
 
     try {
       const response = await fetch(
-        "https://ism-server.onrender.com/api/users",
+        "https://ims-backend-two.vercel.app/api/users",
         {
           method: "POST",
           headers: {
@@ -42,7 +42,7 @@ export default function RegisterPage() {
             name,
             email,
             password,
-            role: "employee",
+            role: "Employee",
           }),
         }
       );
@@ -82,7 +82,7 @@ export default function RegisterPage() {
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-white mb-2">Create Account</h1>
           <p className="text-gray-400">
-            Join IdeaShare and start sharing your ideas
+            Join IMS-System and start sharing your ideas
           </p>
         </div>
 

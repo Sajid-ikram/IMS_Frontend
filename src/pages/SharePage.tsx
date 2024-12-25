@@ -26,7 +26,7 @@ export default function SharePage() {
         throw new Error("User is not authenticated");
       }
       const response = await fetch(
-        `https://ism-server.onrender.com/api/ideas/${user._id}/my-ideas`
+        `https://ims-backend-two.vercel.app/api/ideas/${user._id}/my-ideas`
       );
       if (!response.ok) {
         const message = await response.text();
