@@ -43,9 +43,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Join our community of innovators and thought leaders. Share your
-            ideas, discover new perspectives, and collaborate on the next big
-            thing.
+            Join our global network of innovators and sustainability experts. Share your ideas, collaborate across regions, and drive the next breakthrough in environmental solutions.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"

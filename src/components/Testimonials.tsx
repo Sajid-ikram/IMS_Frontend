@@ -3,22 +3,22 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    content: "IMS-System has transformed how I collaborate with others. The platform's intuitive design and supportive community make sharing ideas a breeze.",
-    author: "Sarah Johnson",
-    role: "Product Designer",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80"
+    content: "IMS-Connect has revolutionized the way we harness creativity across our global teams. The platform makes it easy to share, develop, and track ideas from anywhere.",
+    author: "Emma Williams",
+    role: "Sustainability Manager, GreenFuture",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80"
   },
   {
-    content: "The feedback I've received on my ideas has been invaluable. This platform truly fosters innovation and creative thinking.",
-    author: "Michael Chen",
-    role: "Tech Entrepreneur",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+    content: "The collaborative tools have been a game changer. By connecting with colleagues across regions, we developed breakthrough solutions that wouldn’t have been possible otherwise.",
+    author: "James Patel",
+    role: "Urban Planner, GreenFuture",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&q=80"
   },
   {
-    content: "As an innovator, finding the right platform to share ideas is crucial. IMS-System exceeds all expectations with its amazing community.",
-    author: "Emily Rodriguez",
-    role: "Innovation Consultant",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"
+    content: "IMS-Connect has bridged the gap between offices and regions, giving everyone a voice in the innovation process. It’s more than a tool—it’s a cultural shift.",
+    author: "Sophia Lin",
+    role: "Environmental Analyst, GreenFuture",
+    image: "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?auto=format&fit=crop&q=80"
   }
 ];
 
@@ -50,7 +50,7 @@ export default function Testimonials() {
         >
           <h2 className="text-3xl font-bold text-white mb-4">What Our Users Say</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Join thousands of satisfied users who have found success on our platform.
+          Join innovators from around the globe who are transforming ideas into impactful solutions with IMS-Connect.
           </p>
         </motion.div>
         

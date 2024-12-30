@@ -5,23 +5,23 @@ import { motion } from 'framer-motion';
 const features = [
   {
     icon: Brain,
-    title: 'Innovative Ideas',
-    description: 'Share and explore groundbreaking ideas from creative minds around the world.'
+    title: 'Centralized Idea Hub',
+    description: 'Capture and organize innovative ideas from employees across 20 offices worldwide.'
   },
   {
     icon: Users,
-    title: 'Community Driven',
-    description: 'Connect with like-minded individuals and build meaningful collaborations.'
+    title: 'Global Collaboration',
+    description: 'Bridge regional and cultural gaps to foster teamwork and cross-regional innovation.'
   },
   {
     icon: Zap,
-    title: 'Instant Feedback',
-    description: 'Get real-time feedback and insights from our diverse community.'
+    title: 'Streamlined Evaluation',
+    description: 'Leverage AI-powered tools to efficiently filter, prioritize, and develop high-potential ideas.'
   },
   {
     icon: Trophy,
-    title: 'Recognition',
-    description: 'Get recognized for your contributions and innovative thinking.'
+    title: 'Incentives & Recognition',
+    description: 'Encourage contributions through team-based rewards and recognition for collaborative success.'
   }
 ];
 
@@ -51,9 +51,9 @@ export default function Features() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-white mb-4">Why Choose IMS-System?</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">About IMS-System?</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Discover the features that make our platform the perfect place for innovators and creators.
+          Discover the features that transformed GreenFuture's innovation process, enabling global collaboration and renewed creativity.
           </p>
         </motion.div>
         

@@ -1,12 +1,12 @@
 export const topics = [
   {
     category: 'Technology',
-    topic: '#WebDevelopment',
+    topic: '#SoftwareDevelopment',
     posts: '125K'
   },
   {
     category: 'Business',
-    topic: '#Startup',
+    topic: '#ProductIdeas',
     posts: '89K'
   },
   {

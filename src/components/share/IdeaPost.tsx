@@ -1,4 +1,4 @@
-import { Heart, MessageCircle } from "lucide-react";
+import { ArrowUp, MessageCircle } from "lucide-react";
 import DOMPurify from "dompurify";
 import { convertGoogleDriveLink } from "../../utils/convertGoogleDriveLink";
 import { truncateText } from "../../utils/text";
@@ -58,7 +58,7 @@ export default function IdeaPost({
 
       <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/10">
         <button className="flex items-center gap-2 text-gray-400 hover:text-pink-500 transition-colors">
-          <Heart className={`h-5 w-5 fill-pink-500 text-pink-500`} />
+          <ArrowUp className={`h-5 w-5 fill-pink-500 text-pink-500`} />
           <span>{votes}</span>
         </button>
         <button className="flex items-center gap-2 text-gray-400 hover:text-purple-500 transition-colors">

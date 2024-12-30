@@ -1,7 +1,6 @@
 import { useState, useEffect, lazy, Suspense, useCallback } from "react";
 import { motion } from "framer-motion";
 import IdeaForm from "../components/share/IdeaForm";
-import PremiumCard from "../components/share/PremiumCard";
 import TrendingTopics from "../components/share/TrendingTopics";
 import LoadingSpinner from "../components/share/LoadingSpinner";
 import { Idea } from "../types/Idea";
@@ -91,7 +90,7 @@ export default function SharePage() {
           </Suspense>
         </div>
         <div className="space-y-6">
-          <PremiumCard />
+        
           <TrendingTopics />
         </div>
       </div>

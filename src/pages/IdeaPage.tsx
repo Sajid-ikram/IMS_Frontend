@@ -147,14 +147,12 @@ export default function IdeaPage() {
                 </div>
               )}
               <div className="flex items-center gap-3">
-                {user?.role !== "Employee" && (
-                  <StatusBadge
-                    ideaName={idea?.title}
-                    ideaId={idea._id}
-                    type="collaborate"
-                    onStatusChange={handleStatusChange}
-                  />
-                )}
+                <StatusBadge
+                  ideaName={idea?.title}
+                  ideaId={idea._id}
+                  type="collaborate"
+                  onStatusChange={handleStatusChange}
+                />
                 {user?.role === "Innovation" && (
                   <StatusBadge
                     ideaName={idea?.title}
